@@ -84,12 +84,13 @@ footer p:first-child {
   }
   h2 span {
     display: block;
-    font-size: 15vw;
+    font-size: 12vw;
+    line-height: 1.2;
   }
   h3 {
     background-image: none;
     color:#FFFFFF;
-    font-size: 40vw;
+    font-size: 25vw;
     max-width: 300px;
     margin: 0 auto;
   }
@@ -130,7 +131,7 @@ footer p:first-child {
     padding-bottom: 5%;
   }
 }
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 500px) {
   .no-horizontal {
     display: block;
     position: absolute;
